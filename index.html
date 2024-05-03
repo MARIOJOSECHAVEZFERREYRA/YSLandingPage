@@ -20,7 +20,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/L3H.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/L3H.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
     <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
 
@@ -41,7 +40,7 @@
     <main class="main" id="top">
       <!-- HEADER -->
       <nav class="navbar navbar-expand-lg navbar-light fixed-top d-block" data-navbar-on-scroll="data-navbar-on-scroll">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/icons/L3H.png" height="90" width="200" alt="logo" /></a>
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/icons/L3H.png" height="100" width="200" alt="logo" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
@@ -126,61 +125,174 @@
       <!-- ABOUT US ============================-->
       <!-- ============================================-->
 
-
-
-      <!-- ============================================-->
-      <!-- SERVICES ============================-->
-      
-      <!-- SERVICES ============================-->
-      <!-- ============================================-->
-
-
-
       <!-- ============================================-->
       <!-- TOP DESTINATIONS ============================-->
       <section class="pt-5" id="destination">
-
-        <div class="container">
-          <div class="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4"><img src="assets/img/dest/shape.svg" alt="destination" /></div>
-          <div class="mb-7 text-center">
-            <h5 class="text-secondary">CATEGORY</h5>
-            <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">We Offer Best Services</h3>
-          </div>
+  <div class="container">
+    <div class="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4">
+      <img src="assets/img/dest/shape.svg" alt="destination" />
+    </div>
+    <div class="mb-7 text-center">
+      <h5 class="text-secondary">CATEGORY</h5>
+      <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize">We Offer Best Services</h3>
+    </div>
+    <div id="destinationCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
           <div class="row">
-            <div class="col-md-4 mb-4">
-              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest1.jpg" alt="Rome, Italty" />
-                <div class="card-body py-4 px-3">
+            <!-- Primer conjunto de tarjetas -->
+            <!-- REPAIRS -->
+            <div class="col-md-4">
+              <div class="card overflow-hidden shadow card-custom">
+                <img class="card-img-top" src="assets/img/dest/repairs.jpg" alt="Rome, Italy">
+                <div class="card-body py-4 px-3 card-body-custom">
                   <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Rome, Italty</a></h4><span class="fs-1 fw-medium">$5,42k</span>
+                    <h4 class="text-secondary fw-medium">
+                      <a class="link-900 text-decoration-none stretched-link" href="#!">Repairs</a>
+                    </h4>
+                    <span class="fs-1 fw-medium"></span>
                   </div>
-                  <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">10 Days Trip</span></div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium">
+                      At Y'S, we handle every repair with precision and care, ensuring your home or office functions smoothly. No task is too big or small for our skilled team. Experience the peace of mind that comes with expert repairs.
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-4">
-              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest2.jpg" alt="London, UK" />
-                <div class="card-body py-4 px-3">
+            <!-- REMODELING -->
+            <div class="col-md-4">
+              <div class="card overflow-hidden shadow card-custom">
+                <img class="card-img-top" src="assets/img/dest/remodeling.jpg" alt="London, UK">
+                <div class="card-body py-4 px-3 card-body-custom">
                   <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">London, UK</a></h4><span class="fs-1 fw-medium">$4.2k</span>
+                    <h4 class="text-secondary fw-medium">
+                      <a class="link-900 text-decoration-none stretched-link" href="#!">Remodeling</a>
+                    </h4>
+                    <span class="fs-1 fw-medium"></span>
                   </div>
-                  <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">12 Days Trip</span></div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium">
+                      Transform your space with Y'S Remodeling services. From concept to completion, our professionals work with you to bring your vision to life. Enhance your environment with quality craftsmanship tailored to your needs.
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-4">
-              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest3.jpg" alt="Full Europe" />
-                <div class="card-body py-4 px-3">
+            <!-- INTERIOR-EXTERIOR -->
+            <div class="col-md-4">
+              <div class="card overflow-hidden shadow">
+                <img class="card-img-top" src="assets/img/dest/interior-exterior.jpg" alt="Full Europe">
+                <div class="card-body py-4 px-3 card-body-custom">
                   <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Full Europe</a></h4><span class="fs-1 fw-medium">$15k</span>
+                    <h4 class="text-secondary fw-medium">
+                      <a class="link-900 text-decoration-none stretched-link" href="#!">Interior-Exterior</a>
+                    </h4>
+                    <span class="fs-1 fw-medium"></span>
                   </div>
-                  <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">28 Days Trip</span></div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium">
+                      Elevate your property’s appeal with Y'S Interior and Exterior services. Whether it’s a fresh coat of paint or a complete makeover, we’re here to improve every corner of your space, inside and out.
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-      </section> 
+        <!-- SEGUNDO CONJUNTO DE TARJETAS -->
+        <div class="carousel-item">
+          <div class="row">
+            <!-- PAINTING -->
+            <div class="col-md-4">
+              <div class="card overflow-hidden shadow">
+                <img class="card-img-top" src="assets/img/dest/paiting.jpg" alt="Rome, Italy">
+                <div class="card-body py-4 px-3 card-body-custom">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                    <h4 class="text-secondary fw-medium">
+                      <a class="link-900 text-decoration-none stretched-link" href="#!">Paiting</a>
+                    </h4>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium">Brighten up your world with Y'S Painting services. Choose from a vast array of colors and finishes. Our precise application and high-quality paints ensure a stunning transformation of your living or workspace.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- DRYWALL -->
+            <div class="col-md-4">
+              <div class="card overflow-hidden shadow">
+                <img class="card-img-top" src="assets/img/dest/drywall.jpg" alt="London, UK">
+                <div class="card-body py-4 px-3 card-body-custom">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                    <h4 class="text-secondary fw-medium">
+                      <a class="link-900 text-decoration-none stretched-link" href="#!">Drywall</a>
+                    </h4>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium">
+                      Organize and beautify your space with custom-designed draws from Y'S. Perfect for any room, our solutions make the most of your space, enhancing both functionality and style.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Electricity -->
+            <div class="col-md-4">
+              <div class="card overflow-hidden shadow">
+                <img class="card-img-top" src="assets/img/dest/electricity.jpg" alt="Full Europe">
+                <div class="card-body py-4 px-3 card-body-custom">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                    <h4 class="text-secondary fw-medium">
+                      <a class="link-900 text-decoration-none stretched-link" href="#!">Electricity</a>
+                    </h4>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium">
+                      Keep your electrical systems safe and efficient with Y'S Electrical services. Our licensed electricians ensure all installations and repairs meet the highest standards of safety and performance.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- TERCER CONJUNTO DE TARJETAS -->
+        <div class="carousel-item">
+          <div class="row">
+            <!-- PLUMBING  -->
+            <div class="col-md-4">
+              <div class="card overflow-hidden shadow">
+                <img class="card-img-top" src="assets/img/dest/plumbing.webp" alt="Full Europe">
+                <div class="card-body py-4 px-3">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                    <h4 class="text-secondary fw-medium">
+                      <a class="link-900 text-decoration-none stretched-link" href="#!">Plumbing</a>
+                    </h4>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="fs-0 fw-medium">
+                      Leakages? Blockages? Worry no more! Y'S Plumbing services are here to ensure your water systems work flawlessly. With rapid response and expert solutions, we keep your plumbing in perfect condition.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Controles del carrusel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#destinationCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#destinationCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+      </section>
       <!-- TOP DESTINATIONS ============================-->
       <!-- ============================================-->
 
@@ -348,7 +460,6 @@
               <ul class="list-unstyled mb-0">
                 <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">About</a></li>
                 <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Careers</a></li>
-                <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Mobile</a></li>
               </ul>
             </div>
             <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-2 order-md-3">
@@ -356,15 +467,13 @@
               <ul class="list-unstyled mb-0">
                 <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Help/FAQ</a></li>
                 <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Press</a></li>
-                <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Affiliate</a></li>
               </ul>
             </div>
             <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-3 order-md-4">
               <h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">More</h4>
               <ul class="list-unstyled mb-0">
-                <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Airlinefees</a></li>
-                <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Airline</a></li>
-                <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Low fare tips</a></li>
+                <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Mobile</a></li>
+                <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Affiliate</a></li>
               </ul>
             </div>
             <div class="col-lg-3 col-md-5 col-12 mb-4 mb-md-6 mb-lg-0 order-lg-4 order-md-1">
